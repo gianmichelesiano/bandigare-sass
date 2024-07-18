@@ -6,7 +6,7 @@ FROM python:${PYTHON_VERSION}
 # Create a virtual environment
 RUN python -m venv /opt/venv
 
-# Set the virtual environment as the current location1
+# Set the virtual environment as the current location
 ENV PATH=/opt/venv/bin:$PATH
 
 # Upgrade pip
